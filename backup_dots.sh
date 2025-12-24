@@ -23,4 +23,4 @@ git remote add origin "$FULL_AUTH_URL"
 # 4. Sync
 git add .
 git commit -m "GUI Sync: $(date)"
-git push -u origin main
+git push -u origin main -f
