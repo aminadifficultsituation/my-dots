@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -e
 # Capture GUI variables
 TOKEN=${GIT_TOKEN}
 REPO=${GIT_REPO}
